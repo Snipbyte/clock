@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    margin-top: 0;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    padding: 40px 0;
+}
+.main
+{
+    width: 320px;
+    height: 500px;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border:2px solid white;
+    box-shadow: orange 6px 6px 8px ;
+}
+
+.digital_clock
+{
+    box-shadow: rgba(252, 0, 129, 0.25) 12px 54px 55px, rgba(252, 0, 129, 0.25) 0px -12px 30px, rgba(252, 0, 129, 0.25) 0px 4px 6px, rgba(252, 0, 129, 0.25) 0px 12px 13px, rgba(252, 0, 129, 0.25) 0px -3px 5px;
+    width: 100%;
+    border-image: linear-gradient(orange,crimson,blue, #b06ab3) 30;
+    border-width: 3px;
+    border-style: solid;    
+    font-size: 45px;
+    color: orange;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 20%;
+}
+#timeZones
+{
+    width: 100%;
+    padding: 10px 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: 'poppins',sans-serif;
+
+}
+#timeZones option
+{
+    padding: 3px;
+}
+h2
+{
+    text-align: center;
+    font-family: 'poppins',sans-serif;
+    color: orange;
+}
+
+@media (max-width: 948px) {
+    .main {
+       width:80% !important;
+       margin: auto;
+   }
+}
